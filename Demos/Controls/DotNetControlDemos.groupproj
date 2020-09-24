@@ -1,0 +1,384 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{61CB4FDC-F072-465E-A326-2FCAD0788072}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Button\Buttons.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CheckBox\CheckBoxes.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CheckedListBox\CheckedListBoxes.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ComboBox\ComboBoxes.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DateTimePicker\DateTimePickers.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DomainUpDown\DomainUpDown.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Label\Labels.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="LinkLabel\LinkLabels.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ListBox\ListBoxes.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ListView\ListViews.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TreeView\TreeViews.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TrackBar\TrackBars.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ToolTip\ToolTips.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TextBox\TextBoxes.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RichTextBox\RichTextBox.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MaskedTextBox\MaskedTextBoxes.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MonthCalendar\MonthCalendars.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="NumericUpDown\NumericUpDown.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RadioButton\RadioButtons.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="PictureBox\PictureBox.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ProgressBar\ProgressBars.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="WebBrowser\WebBrowser.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ClrContainer\ClrContainer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="PropertyGrid\PropertyGrid.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ImageList\ImageLists.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MessageBox\MessageBox.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Application\DotNetApplication.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DataGridView\Example1\DataGridViewWithDSIntf.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DataGridView\Example2\DataGridViewWithDataManually.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BindingNavigator\Example1\BindingNavigatorExample.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Buttons">
+        <MSBuild Projects="Button\Buttons.dproj"/>
+    </Target>
+    <Target Name="Buttons:Clean">
+        <MSBuild Projects="Button\Buttons.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Buttons:Make">
+        <MSBuild Projects="Button\Buttons.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CheckBoxes">
+        <MSBuild Projects="CheckBox\CheckBoxes.dproj"/>
+    </Target>
+    <Target Name="CheckBoxes:Clean">
+        <MSBuild Projects="CheckBox\CheckBoxes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CheckBoxes:Make">
+        <MSBuild Projects="CheckBox\CheckBoxes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CheckedListBoxes">
+        <MSBuild Projects="CheckedListBox\CheckedListBoxes.dproj"/>
+    </Target>
+    <Target Name="CheckedListBoxes:Clean">
+        <MSBuild Projects="CheckedListBox\CheckedListBoxes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CheckedListBoxes:Make">
+        <MSBuild Projects="CheckedListBox\CheckedListBoxes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ComboBoxes">
+        <MSBuild Projects="ComboBox\ComboBoxes.dproj"/>
+    </Target>
+    <Target Name="ComboBoxes:Clean">
+        <MSBuild Projects="ComboBox\ComboBoxes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ComboBoxes:Make">
+        <MSBuild Projects="ComboBox\ComboBoxes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DateTimePickers">
+        <MSBuild Projects="DateTimePicker\DateTimePickers.dproj"/>
+    </Target>
+    <Target Name="DateTimePickers:Clean">
+        <MSBuild Projects="DateTimePicker\DateTimePickers.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DateTimePickers:Make">
+        <MSBuild Projects="DateTimePicker\DateTimePickers.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DomainUpDown">
+        <MSBuild Projects="DomainUpDown\DomainUpDown.dproj"/>
+    </Target>
+    <Target Name="DomainUpDown:Clean">
+        <MSBuild Projects="DomainUpDown\DomainUpDown.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DomainUpDown:Make">
+        <MSBuild Projects="DomainUpDown\DomainUpDown.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Labels">
+        <MSBuild Projects="Label\Labels.dproj"/>
+    </Target>
+    <Target Name="Labels:Clean">
+        <MSBuild Projects="Label\Labels.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Labels:Make">
+        <MSBuild Projects="Label\Labels.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LinkLabels">
+        <MSBuild Projects="LinkLabel\LinkLabels.dproj"/>
+    </Target>
+    <Target Name="LinkLabels:Clean">
+        <MSBuild Projects="LinkLabel\LinkLabels.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LinkLabels:Make">
+        <MSBuild Projects="LinkLabel\LinkLabels.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ListBoxes">
+        <MSBuild Projects="ListBox\ListBoxes.dproj"/>
+    </Target>
+    <Target Name="ListBoxes:Clean">
+        <MSBuild Projects="ListBox\ListBoxes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ListBoxes:Make">
+        <MSBuild Projects="ListBox\ListBoxes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ListViews">
+        <MSBuild Projects="ListView\ListViews.dproj"/>
+    </Target>
+    <Target Name="ListViews:Clean">
+        <MSBuild Projects="ListView\ListViews.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ListViews:Make">
+        <MSBuild Projects="ListView\ListViews.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TreeViews">
+        <MSBuild Projects="TreeView\TreeViews.dproj"/>
+    </Target>
+    <Target Name="TreeViews:Clean">
+        <MSBuild Projects="TreeView\TreeViews.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TreeViews:Make">
+        <MSBuild Projects="TreeView\TreeViews.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TrackBars">
+        <MSBuild Projects="TrackBar\TrackBars.dproj"/>
+    </Target>
+    <Target Name="TrackBars:Clean">
+        <MSBuild Projects="TrackBar\TrackBars.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TrackBars:Make">
+        <MSBuild Projects="TrackBar\TrackBars.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ToolTips">
+        <MSBuild Projects="ToolTip\ToolTips.dproj"/>
+    </Target>
+    <Target Name="ToolTips:Clean">
+        <MSBuild Projects="ToolTip\ToolTips.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ToolTips:Make">
+        <MSBuild Projects="ToolTip\ToolTips.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TextBoxes">
+        <MSBuild Projects="TextBox\TextBoxes.dproj"/>
+    </Target>
+    <Target Name="TextBoxes:Clean">
+        <MSBuild Projects="TextBox\TextBoxes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TextBoxes:Make">
+        <MSBuild Projects="TextBox\TextBoxes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RichTextBox">
+        <MSBuild Projects="RichTextBox\RichTextBox.dproj"/>
+    </Target>
+    <Target Name="RichTextBox:Clean">
+        <MSBuild Projects="RichTextBox\RichTextBox.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RichTextBox:Make">
+        <MSBuild Projects="RichTextBox\RichTextBox.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MaskedTextBoxes">
+        <MSBuild Projects="MaskedTextBox\MaskedTextBoxes.dproj"/>
+    </Target>
+    <Target Name="MaskedTextBoxes:Clean">
+        <MSBuild Projects="MaskedTextBox\MaskedTextBoxes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MaskedTextBoxes:Make">
+        <MSBuild Projects="MaskedTextBox\MaskedTextBoxes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MonthCalendars">
+        <MSBuild Projects="MonthCalendar\MonthCalendars.dproj"/>
+    </Target>
+    <Target Name="MonthCalendars:Clean">
+        <MSBuild Projects="MonthCalendar\MonthCalendars.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MonthCalendars:Make">
+        <MSBuild Projects="MonthCalendar\MonthCalendars.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NumericUpDown">
+        <MSBuild Projects="NumericUpDown\NumericUpDown.dproj"/>
+    </Target>
+    <Target Name="NumericUpDown:Clean">
+        <MSBuild Projects="NumericUpDown\NumericUpDown.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NumericUpDown:Make">
+        <MSBuild Projects="NumericUpDown\NumericUpDown.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RadioButtons">
+        <MSBuild Projects="RadioButton\RadioButtons.dproj"/>
+    </Target>
+    <Target Name="RadioButtons:Clean">
+        <MSBuild Projects="RadioButton\RadioButtons.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RadioButtons:Make">
+        <MSBuild Projects="RadioButton\RadioButtons.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PictureBox">
+        <MSBuild Projects="PictureBox\PictureBox.dproj"/>
+    </Target>
+    <Target Name="PictureBox:Clean">
+        <MSBuild Projects="PictureBox\PictureBox.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PictureBox:Make">
+        <MSBuild Projects="PictureBox\PictureBox.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ProgressBars">
+        <MSBuild Projects="ProgressBar\ProgressBars.dproj"/>
+    </Target>
+    <Target Name="ProgressBars:Clean">
+        <MSBuild Projects="ProgressBar\ProgressBars.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProgressBars:Make">
+        <MSBuild Projects="ProgressBar\ProgressBars.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WebBrowser">
+        <MSBuild Projects="WebBrowser\WebBrowser.dproj"/>
+    </Target>
+    <Target Name="WebBrowser:Clean">
+        <MSBuild Projects="WebBrowser\WebBrowser.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebBrowser:Make">
+        <MSBuild Projects="WebBrowser\WebBrowser.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ClrContainer">
+        <MSBuild Projects="ClrContainer\ClrContainer.dproj"/>
+    </Target>
+    <Target Name="ClrContainer:Clean">
+        <MSBuild Projects="ClrContainer\ClrContainer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ClrContainer:Make">
+        <MSBuild Projects="ClrContainer\ClrContainer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PropertyGrid">
+        <MSBuild Projects="PropertyGrid\PropertyGrid.dproj"/>
+    </Target>
+    <Target Name="PropertyGrid:Clean">
+        <MSBuild Projects="PropertyGrid\PropertyGrid.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PropertyGrid:Make">
+        <MSBuild Projects="PropertyGrid\PropertyGrid.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ImageLists">
+        <MSBuild Projects="ImageList\ImageLists.dproj"/>
+    </Target>
+    <Target Name="ImageLists:Clean">
+        <MSBuild Projects="ImageList\ImageLists.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ImageLists:Make">
+        <MSBuild Projects="ImageList\ImageLists.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MessageBox">
+        <MSBuild Projects="MessageBox\MessageBox.dproj"/>
+    </Target>
+    <Target Name="MessageBox:Clean">
+        <MSBuild Projects="MessageBox\MessageBox.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MessageBox:Make">
+        <MSBuild Projects="MessageBox\MessageBox.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DotNetApplication">
+        <MSBuild Projects="Application\DotNetApplication.dproj"/>
+    </Target>
+    <Target Name="DotNetApplication:Clean">
+        <MSBuild Projects="Application\DotNetApplication.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DotNetApplication:Make">
+        <MSBuild Projects="Application\DotNetApplication.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataGridViewWithDSIntf">
+        <MSBuild Projects="DataGridView\Example1\DataGridViewWithDSIntf.dproj"/>
+    </Target>
+    <Target Name="DataGridViewWithDSIntf:Clean">
+        <MSBuild Projects="DataGridView\Example1\DataGridViewWithDSIntf.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataGridViewWithDSIntf:Make">
+        <MSBuild Projects="DataGridView\Example1\DataGridViewWithDSIntf.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataGridViewWithDataManually">
+        <MSBuild Projects="DataGridView\Example2\DataGridViewWithDataManually.dproj"/>
+    </Target>
+    <Target Name="DataGridViewWithDataManually:Clean">
+        <MSBuild Projects="DataGridView\Example2\DataGridViewWithDataManually.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataGridViewWithDataManually:Make">
+        <MSBuild Projects="DataGridView\Example2\DataGridViewWithDataManually.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BindingNavigatorExample">
+        <MSBuild Projects="BindingNavigator\Example1\BindingNavigatorExample.dproj"/>
+    </Target>
+    <Target Name="BindingNavigatorExample:Clean">
+        <MSBuild Projects="BindingNavigator\Example1\BindingNavigatorExample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BindingNavigatorExample:Make">
+        <MSBuild Projects="BindingNavigator\Example1\BindingNavigatorExample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Buttons;CheckBoxes;CheckedListBoxes;ComboBoxes;DateTimePickers;DomainUpDown;Labels;LinkLabels;ListBoxes;ListViews;TreeViews;TrackBars;ToolTips;TextBoxes;RichTextBox;MaskedTextBoxes;MonthCalendars;NumericUpDown;RadioButtons;PictureBox;ProgressBars;WebBrowser;ClrContainer;PropertyGrid;ImageLists;MessageBox;DotNetApplication;DataGridViewWithDSIntf;DataGridViewWithDataManually;BindingNavigatorExample"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Buttons:Clean;CheckBoxes:Clean;CheckedListBoxes:Clean;ComboBoxes:Clean;DateTimePickers:Clean;DomainUpDown:Clean;Labels:Clean;LinkLabels:Clean;ListBoxes:Clean;ListViews:Clean;TreeViews:Clean;TrackBars:Clean;ToolTips:Clean;TextBoxes:Clean;RichTextBox:Clean;MaskedTextBoxes:Clean;MonthCalendars:Clean;NumericUpDown:Clean;RadioButtons:Clean;PictureBox:Clean;ProgressBars:Clean;WebBrowser:Clean;ClrContainer:Clean;PropertyGrid:Clean;ImageLists:Clean;MessageBox:Clean;DotNetApplication:Clean;DataGridViewWithDSIntf:Clean;DataGridViewWithDataManually:Clean;BindingNavigatorExample:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Buttons:Make;CheckBoxes:Make;CheckedListBoxes:Make;ComboBoxes:Make;DateTimePickers:Make;DomainUpDown:Make;Labels:Make;LinkLabels:Make;ListBoxes:Make;ListViews:Make;TreeViews:Make;TrackBars:Make;ToolTips:Make;TextBoxes:Make;RichTextBox:Make;MaskedTextBoxes:Make;MonthCalendars:Make;NumericUpDown:Make;RadioButtons:Make;PictureBox:Make;ProgressBars:Make;WebBrowser:Make;ClrContainer:Make;PropertyGrid:Make;ImageLists:Make;MessageBox:Make;DotNetApplication:Make;DataGridViewWithDSIntf:Make;DataGridViewWithDataManually:Make;BindingNavigatorExample:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
