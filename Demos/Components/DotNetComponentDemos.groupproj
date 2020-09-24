@@ -1,0 +1,384 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{3AB49D2E-18B5-4A8B-892E-3B4A0340DF76}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="BackgroundWorker\Example1\BackgroundWorker1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="BackgroundWorker\Example2\BackgroundWorker2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ColorDialog\Example1\ColorDialog.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FileSystemWatcher\Example1\FileSystemWatcher.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FontDialog\FontDialog.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Ping\Example1\Ping1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Ping\Example2\Ping2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Process\Example1\Process1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Process\Example2\Process2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="EventLog\EventLog.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ServiceController\ServiceController.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="SerialPort\SerialPort.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Timer\Timer.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ADChangeNotifier\ADChangeNotifier.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="XmlDocument\XmlDocument.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="XDocument\XDocument.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="WebProxy\WebProxy.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="WebClient\WebClient.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="UdpClient\UdpClient.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="TcpClient\TcpClient.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="SmtpClient\SmtpClient.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PrintPreviewDialog\PrintPreviewDialog.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PrintDocument\PrintDocument.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PrintDialog\PrintDialog.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="HttpClient\HttpClient.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="SaveFileDialog\SaveFileDialog.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="OpenFileDialog\OpenFileDialog.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FolderBrowserDialog\FolderBrowserDialog.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="HttpListener\HttpListener.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ActiveDirectory\ActiveDirectory.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="BackgroundWorker1">
+			<MSBuild Projects="BackgroundWorker\Example1\BackgroundWorker1.dproj"/>
+		</Target>
+		<Target Name="BackgroundWorker1:Clean">
+			<MSBuild Projects="BackgroundWorker\Example1\BackgroundWorker1.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="BackgroundWorker1:Make">
+			<MSBuild Projects="BackgroundWorker\Example1\BackgroundWorker1.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="BackgroundWorker2">
+			<MSBuild Projects="BackgroundWorker\Example2\BackgroundWorker2.dproj"/>
+		</Target>
+		<Target Name="BackgroundWorker2:Clean">
+			<MSBuild Projects="BackgroundWorker\Example2\BackgroundWorker2.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="BackgroundWorker2:Make">
+			<MSBuild Projects="BackgroundWorker\Example2\BackgroundWorker2.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="ColorDialog">
+			<MSBuild Projects="ColorDialog\Example1\ColorDialog.dproj"/>
+		</Target>
+		<Target Name="ColorDialog:Clean">
+			<MSBuild Projects="ColorDialog\Example1\ColorDialog.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="ColorDialog:Make">
+			<MSBuild Projects="ColorDialog\Example1\ColorDialog.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="FileSystemWatcher">
+			<MSBuild Projects="FileSystemWatcher\Example1\FileSystemWatcher.dproj"/>
+		</Target>
+		<Target Name="FileSystemWatcher:Clean">
+			<MSBuild Projects="FileSystemWatcher\Example1\FileSystemWatcher.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="FileSystemWatcher:Make">
+			<MSBuild Projects="FileSystemWatcher\Example1\FileSystemWatcher.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="FontDialog">
+			<MSBuild Projects="FontDialog\FontDialog.dproj"/>
+		</Target>
+		<Target Name="FontDialog:Clean">
+			<MSBuild Projects="FontDialog\FontDialog.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="FontDialog:Make">
+			<MSBuild Projects="FontDialog\FontDialog.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Ping1">
+			<MSBuild Projects="Ping\Example1\Ping1.dproj"/>
+		</Target>
+		<Target Name="Ping1:Clean">
+			<MSBuild Projects="Ping\Example1\Ping1.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Ping1:Make">
+			<MSBuild Projects="Ping\Example1\Ping1.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Ping2">
+			<MSBuild Projects="Ping\Example2\Ping2.dproj"/>
+		</Target>
+		<Target Name="Ping2:Clean">
+			<MSBuild Projects="Ping\Example2\Ping2.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Ping2:Make">
+			<MSBuild Projects="Ping\Example2\Ping2.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Process1">
+			<MSBuild Projects="Process\Example1\Process1.dproj"/>
+		</Target>
+		<Target Name="Process1:Clean">
+			<MSBuild Projects="Process\Example1\Process1.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Process1:Make">
+			<MSBuild Projects="Process\Example1\Process1.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Process2">
+			<MSBuild Projects="Process\Example2\Process2.dproj"/>
+		</Target>
+		<Target Name="Process2:Clean">
+			<MSBuild Projects="Process\Example2\Process2.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Process2:Make">
+			<MSBuild Projects="Process\Example2\Process2.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="EventLog">
+			<MSBuild Projects="EventLog\EventLog.dproj"/>
+		</Target>
+		<Target Name="EventLog:Clean">
+			<MSBuild Projects="EventLog\EventLog.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="EventLog:Make">
+			<MSBuild Projects="EventLog\EventLog.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="ServiceController">
+			<MSBuild Projects="ServiceController\ServiceController.dproj"/>
+		</Target>
+		<Target Name="ServiceController:Clean">
+			<MSBuild Projects="ServiceController\ServiceController.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="ServiceController:Make">
+			<MSBuild Projects="ServiceController\ServiceController.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="SerialPort">
+			<MSBuild Projects="SerialPort\SerialPort.dproj"/>
+		</Target>
+		<Target Name="SerialPort:Clean">
+			<MSBuild Projects="SerialPort\SerialPort.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="SerialPort:Make">
+			<MSBuild Projects="SerialPort\SerialPort.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Timer">
+			<MSBuild Projects="Timer\Timer.dproj"/>
+		</Target>
+		<Target Name="Timer:Clean">
+			<MSBuild Projects="Timer\Timer.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Timer:Make">
+			<MSBuild Projects="Timer\Timer.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="ADChangeNotifier">
+			<MSBuild Projects="ADChangeNotifier\ADChangeNotifier.dproj"/>
+		</Target>
+		<Target Name="ADChangeNotifier:Clean">
+			<MSBuild Projects="ADChangeNotifier\ADChangeNotifier.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="ADChangeNotifier:Make">
+			<MSBuild Projects="ADChangeNotifier\ADChangeNotifier.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="XmlDocument">
+			<MSBuild Projects="XmlDocument\XmlDocument.dproj"/>
+		</Target>
+		<Target Name="XmlDocument:Clean">
+			<MSBuild Projects="XmlDocument\XmlDocument.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="XmlDocument:Make">
+			<MSBuild Projects="XmlDocument\XmlDocument.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="XDocument">
+			<MSBuild Projects="XDocument\XDocument.dproj"/>
+		</Target>
+		<Target Name="XDocument:Clean">
+			<MSBuild Projects="XDocument\XDocument.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="XDocument:Make">
+			<MSBuild Projects="XDocument\XDocument.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="WebProxy">
+			<MSBuild Projects="WebProxy\WebProxy.dproj"/>
+		</Target>
+		<Target Name="WebProxy:Clean">
+			<MSBuild Projects="WebProxy\WebProxy.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="WebProxy:Make">
+			<MSBuild Projects="WebProxy\WebProxy.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="WebClient">
+			<MSBuild Projects="WebClient\WebClient.dproj"/>
+		</Target>
+		<Target Name="WebClient:Clean">
+			<MSBuild Projects="WebClient\WebClient.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="WebClient:Make">
+			<MSBuild Projects="WebClient\WebClient.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="UdpClient">
+			<MSBuild Projects="UdpClient\UdpClient.dproj"/>
+		</Target>
+		<Target Name="UdpClient:Clean">
+			<MSBuild Projects="UdpClient\UdpClient.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="UdpClient:Make">
+			<MSBuild Projects="UdpClient\UdpClient.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="TcpClient">
+			<MSBuild Projects="TcpClient\TcpClient.dproj"/>
+		</Target>
+		<Target Name="TcpClient:Clean">
+			<MSBuild Projects="TcpClient\TcpClient.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="TcpClient:Make">
+			<MSBuild Projects="TcpClient\TcpClient.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="SmtpClient">
+			<MSBuild Projects="SmtpClient\SmtpClient.dproj"/>
+		</Target>
+		<Target Name="SmtpClient:Clean">
+			<MSBuild Projects="SmtpClient\SmtpClient.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="SmtpClient:Make">
+			<MSBuild Projects="SmtpClient\SmtpClient.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="PrintPreviewDialog">
+			<MSBuild Projects="PrintPreviewDialog\PrintPreviewDialog.dproj"/>
+		</Target>
+		<Target Name="PrintPreviewDialog:Clean">
+			<MSBuild Projects="PrintPreviewDialog\PrintPreviewDialog.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="PrintPreviewDialog:Make">
+			<MSBuild Projects="PrintPreviewDialog\PrintPreviewDialog.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="PrintDocument">
+			<MSBuild Projects="PrintDocument\PrintDocument.dproj"/>
+		</Target>
+		<Target Name="PrintDocument:Clean">
+			<MSBuild Projects="PrintDocument\PrintDocument.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="PrintDocument:Make">
+			<MSBuild Projects="PrintDocument\PrintDocument.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="PrintDialog">
+			<MSBuild Projects="PrintDialog\PrintDialog.dproj"/>
+		</Target>
+		<Target Name="PrintDialog:Clean">
+			<MSBuild Projects="PrintDialog\PrintDialog.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="PrintDialog:Make">
+			<MSBuild Projects="PrintDialog\PrintDialog.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="HttpClient">
+			<MSBuild Projects="HttpClient\HttpClient.dproj"/>
+		</Target>
+		<Target Name="HttpClient:Clean">
+			<MSBuild Projects="HttpClient\HttpClient.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="HttpClient:Make">
+			<MSBuild Projects="HttpClient\HttpClient.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="SaveFileDialog">
+			<MSBuild Projects="SaveFileDialog\SaveFileDialog.dproj"/>
+		</Target>
+		<Target Name="SaveFileDialog:Clean">
+			<MSBuild Projects="SaveFileDialog\SaveFileDialog.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="SaveFileDialog:Make">
+			<MSBuild Projects="SaveFileDialog\SaveFileDialog.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="OpenFileDialog">
+			<MSBuild Projects="OpenFileDialog\OpenFileDialog.dproj"/>
+		</Target>
+		<Target Name="OpenFileDialog:Clean">
+			<MSBuild Projects="OpenFileDialog\OpenFileDialog.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="OpenFileDialog:Make">
+			<MSBuild Projects="OpenFileDialog\OpenFileDialog.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="FolderBrowserDialog">
+			<MSBuild Projects="FolderBrowserDialog\FolderBrowserDialog.dproj"/>
+		</Target>
+		<Target Name="FolderBrowserDialog:Clean">
+			<MSBuild Projects="FolderBrowserDialog\FolderBrowserDialog.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="FolderBrowserDialog:Make">
+			<MSBuild Projects="FolderBrowserDialog\FolderBrowserDialog.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="HttpListener">
+			<MSBuild Projects="HttpListener\HttpListener.dproj"/>
+		</Target>
+		<Target Name="HttpListener:Clean">
+			<MSBuild Projects="HttpListener\HttpListener.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="HttpListener:Make">
+			<MSBuild Projects="HttpListener\HttpListener.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="ActiveDirectory">
+			<MSBuild Projects="ActiveDirectory\ActiveDirectory.dproj"/>
+		</Target>
+		<Target Name="ActiveDirectory:Clean">
+			<MSBuild Projects="ActiveDirectory\ActiveDirectory.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="ActiveDirectory:Make">
+			<MSBuild Projects="ActiveDirectory\ActiveDirectory.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="BackgroundWorker1;BackgroundWorker2;ColorDialog;FileSystemWatcher;FontDialog;Ping1;Ping2;Process1;Process2;EventLog;ServiceController;SerialPort;Timer;ADChangeNotifier;XmlDocument;XDocument;WebProxy;WebClient;UdpClient;TcpClient;SmtpClient;PrintPreviewDialog;PrintDocument;PrintDialog;HttpClient;SaveFileDialog;OpenFileDialog;FolderBrowserDialog;HttpListener;ActiveDirectory"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="BackgroundWorker1:Clean;BackgroundWorker2:Clean;ColorDialog:Clean;FileSystemWatcher:Clean;FontDialog:Clean;Ping1:Clean;Ping2:Clean;Process1:Clean;Process2:Clean;EventLog:Clean;ServiceController:Clean;SerialPort:Clean;Timer:Clean;ADChangeNotifier:Clean;XmlDocument:Clean;XDocument:Clean;WebProxy:Clean;WebClient:Clean;UdpClient:Clean;TcpClient:Clean;SmtpClient:Clean;PrintPreviewDialog:Clean;PrintDocument:Clean;PrintDialog:Clean;HttpClient:Clean;SaveFileDialog:Clean;OpenFileDialog:Clean;FolderBrowserDialog:Clean;HttpListener:Clean;ActiveDirectory:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="BackgroundWorker1:Make;BackgroundWorker2:Make;ColorDialog:Make;FileSystemWatcher:Make;FontDialog:Make;Ping1:Make;Ping2:Make;Process1:Make;Process2:Make;EventLog:Make;ServiceController:Make;SerialPort:Make;Timer:Make;ADChangeNotifier:Make;XmlDocument:Make;XDocument:Make;WebProxy:Make;WebClient:Make;UdpClient:Make;TcpClient:Make;SmtpClient:Make;PrintPreviewDialog:Make;PrintDocument:Make;PrintDialog:Make;HttpClient:Make;SaveFileDialog:Make;OpenFileDialog:Make;FolderBrowserDialog:Make;HttpListener:Make;ActiveDirectory:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>
