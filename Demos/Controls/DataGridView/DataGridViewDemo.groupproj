@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{30D29E80-00F5-44FB-82D2-9DE1026FF2C8}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Example1\DataGridViewWithDSIntf.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example2\DataGridViewWithDataManually.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DataGridViewWithDSIntf">
+        <MSBuild Projects="Example1\DataGridViewWithDSIntf.dproj"/>
+    </Target>
+    <Target Name="DataGridViewWithDSIntf:Clean">
+        <MSBuild Projects="Example1\DataGridViewWithDSIntf.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataGridViewWithDSIntf:Make">
+        <MSBuild Projects="Example1\DataGridViewWithDSIntf.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataGridViewWithDataManually">
+        <MSBuild Projects="Example2\DataGridViewWithDataManually.dproj"/>
+    </Target>
+    <Target Name="DataGridViewWithDataManually:Clean">
+        <MSBuild Projects="Example2\DataGridViewWithDataManually.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataGridViewWithDataManually:Make">
+        <MSBuild Projects="Example2\DataGridViewWithDataManually.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DataGridViewWithDSIntf;DataGridViewWithDataManually"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DataGridViewWithDSIntf:Clean;DataGridViewWithDataManually:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DataGridViewWithDSIntf:Make;DataGridViewWithDataManually:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
