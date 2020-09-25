@@ -2,4 +2,4 @@
 *.pas linguist-vendored=false
 *.pas linguist-language=pascal
 *.dpr linguist-language=pascal
-*.* linguist-language=pascal
+*.dproj linguist-language=pascal
