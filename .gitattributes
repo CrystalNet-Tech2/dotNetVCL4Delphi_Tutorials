@@ -1,1 +1,3 @@
 *.* linguist-language=Pascal
+* linguist-vendored
+*.pas linguist-vendored=false
